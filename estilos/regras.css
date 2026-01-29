@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Goblin+One&family=Macondo+Swash+Caps&family=UnifrakturCook:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-azul: #2b4865;
+    --escuro: #4437a7;
+    --fonte-padrao: Arial;
+}
+
+h1,h2{
+    font-family: "Goblin One", serif;
+    color: #5989b9;
+}
+
+p{
+    margin: 15px 0px;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+
+#droid{
+    height: 10px;
+
+}
+
+.dd{
+    width: 50%;
+    display: flex;
+    justify-self:center;
+    
+}
+
+.video1{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+#video{
+    width: 850px;
+}
+
+main p{
+    text-align: justify;
+}
